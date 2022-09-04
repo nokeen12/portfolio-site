@@ -1,6 +1,0 @@
-#hamburgerMenu{
-    height: 50%; 
-}
-#hamburgerMenu:hover{
-    transform:translate(0, -2px)
-}

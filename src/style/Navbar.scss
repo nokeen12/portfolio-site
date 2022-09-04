@@ -1,0 +1,29 @@
+.navbar{
+    display:flex;
+    width: 100%;
+    margin: 0;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+}
+.navbar h2{
+    padding-left: 2%;
+    width: 100%;
+}
+.navbar div{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 2%;
+
+}
+
+#hamburgerMenu{
+    height: 50%;
+    &:hover{
+        transform:translate(0, -2px)
+    }
+}
