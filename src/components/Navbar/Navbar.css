@@ -1,13 +1,11 @@
 .navbar{
     display:flex;
     width:100%;
-    background-color: white;
     height: 100px;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 1px 4px black;
-    position: sticky;
-    top: 0;
+    position: static;
+    /* top: 0; */
 }
 .navbar > *{
     padding: 0 30px;
