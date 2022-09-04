@@ -7,9 +7,11 @@ function ProjectsSection(){
             <div id="projects-scroll">
                 {Projects && Projects.map(project => {
                     return(
-                        <div className="project" key={project.id}>
-                        <p>{project.title}</p>
-                        </div>
+                        <a href={project.link}>
+                            <div className="project" key={project.id}>
+                                <p>{project.title}</p>
+                            </div>
+                        </a>
                     )
                 })}
             </div>

@@ -4,34 +4,39 @@
         "title": "test",
         "image": "",
         "description": "",
-        "tech": ""
+        "tech": "",
+        "link": ""
     },
     {
         "id": 2,
         "title": "test",
         "image": "",
         "description": "",
-        "tech": ""
+        "tech": "",
+        "link": ""
     },
     {
         "id": 3,
         "title": "test",
         "image": "",
         "description": "",
-        "tech": ""
+        "tech": "",
+        "link": ""
     },
     {
         "id": 4,
         "title": "test",
         "image": "",
         "description": "",
-        "tech": ""
+        "tech": "",
+        "link": ""
     },
     {
         "id": 5,
         "title": "test",
         "image": "",
         "description": "",
-        "tech": ""
+        "tech": "",
+        "link": ""
     }
 ]
