@@ -1,0 +1,13 @@
+#contact-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & h2{
+        color: white;
+        text-indent: -80px;
+    }
+}
+#message{
+    width: 400px;
+    height: 200px;
+}
