@@ -5,7 +5,7 @@ function ContactSection(){
         <div id="contact-section">
             <h2>Contact Me</h2>
             <form action="mailto:cordrepayne@gmail.com" method="post" enctype="text/plain">
-                Name:<br/>
+                Name/Company:<br/>
                 <input type="text" name="name" id="name" />
                 <br/>
                 Email:<br/>
