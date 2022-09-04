@@ -2,6 +2,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #0e1111;
     & h2{
         margin-bottom: 0;
     }
@@ -11,5 +12,11 @@ footer{
     & div{
         display: flex;
         justify-content: space-evenly;
+        width: 250px;
+        margin-bottom: 20px;
+        & img{
+            height: 60px;
+            filter: invert(1);
+        }
     }
 }
