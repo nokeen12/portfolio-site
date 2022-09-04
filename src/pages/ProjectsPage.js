@@ -2,7 +2,7 @@ import '../pageStyle/ProjectsPage.scss'
 
 function ProjectsPage(){
     return(
-        <div>
+        <div id="projectspage">
             Projects page
         </div>
     )

@@ -18,7 +18,7 @@ function Navbar(){
 
 function Logo(){
     return(
-        <h2>
+        <h2 style={{ color: 'white' }}>
             Cordre Payne
         </h2>
     )

@@ -7,8 +7,7 @@ import ContactSection from '../components/ContactSection'
 
 function HomePage(){
     return(
-        <div>
-            homepage
+        <div id="homepage">
             <HeroSection/>
             <BioSection/>
             <ProjectsSection/>

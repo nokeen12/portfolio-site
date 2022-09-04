@@ -1,7 +1,7 @@
 import '../pageStyle/ContactPage.scss'
 function ContactPage(){
     return(
-        <div>
+        <div id="contactpage">
             contact page
         </div>
     )

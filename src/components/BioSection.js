@@ -2,7 +2,7 @@ import './style/BioSection.scss'
 
 function BioSection(){
     return(
-        <div>
+        <div id="bio-section">
             BioSection
         </div>
     )

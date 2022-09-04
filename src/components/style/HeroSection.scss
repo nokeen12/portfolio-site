@@ -1,0 +1,59 @@
+#hero-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+#hero-text{
+    p{
+        animation: 1.5s ease fadeIn;
+    }
+    h2{
+        margin-bottom: 0;
+        animation: 1.5s ease slideInLeft;
+    }
+    h3{
+        margin-top: 0;
+        line-height:1rem;
+        padding-left: 30px;
+        animation: 1s ease slideInLeft;
+    }
+}
+#hero-img{
+    animation: 1s ease slideInRight;
+}
+@keyframes slideInRight{
+    0%{
+        translate: 100%;
+        opacity: 0%;
+    }
+    50%{
+        opacity: 0%;
+    }
+    100%{
+        translate: 0;
+        opacity: 100%;
+    }
+}
+@keyframes slideInLeft{
+    0%{
+        translate: -100%;
+        opacity: 0%;
+    }
+    50%{
+        opacity: 0%;
+    }
+    100%{
+        translate: 0;
+        opacity: 100%;
+    }
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+
+}
