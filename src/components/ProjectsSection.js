@@ -7,12 +7,16 @@ function ProjectsSection(){
             <div id="projects-scroll">
                 {Projects && Projects.map(project => {
                     return(
-                        <a href={project.link}>
-                            <div className="project" key={project.id}>
-                                <img src={project.image} alt="project"></img>
-                                <p>{project.title}</p>
-                            </div>
-                        </a>
+                        <>
+                            {project.image.length > 3 &&
+                            <a href={project.link} target="_blank" rel="noopener noreferrer">
+                                <div className="project" key={project.id}>
+                                    <img src={project.image} alt="project"></img>
+                                    <p>{project.title}</p>
+                                </div>
+                            </a>
+                            }
+                        </>
                     )
                 })}
             </div>

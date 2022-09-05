@@ -9,7 +9,7 @@ function ProjectsPage(){
                         <div className="full-project" key={project.id}>
                             <img src={project.image} alt="project"/>
                             <div className="project-details">
-                                <a href={project.link}>
+                                <a href={project.link} target="_blank" rel="noopener noreferrer">
                                     <h2>{project.title}</h2>
                                 </a>
                                 <p>{project.description}</p>

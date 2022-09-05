@@ -2,16 +2,16 @@
     {
         "id": 1,
         "title": "Purple Elephant Careers Website",
-        "image": "./age-of-silver.png",
+        "image": "n/a",
         "description": "Developed full website from figma file and followed personal design choices when implementing responsive web design",
         "tech": "JavaScript, React, SCSS, HTML, Figma",
-        "link": ""
+        "link": "https://github.com/nokeen12/purpleelephantcareers"
     },
     {
         "id": 2,
         "title": "Age of Silver",
         "image": "./age-of-silver.png",
-        "description": "A full-stack application deployed and hosted using heroku(server) and netlify(client). Users can create an account, view the whole selection, and add jewelry to their cart for checkout.",
+        "description": "A full-stack application deployed and hosted using heroku(server) and netlify(client). Users can create an account, view the whole selection of products, and add jewelry to their cart for checkout.",
         "tech": "JavaScript, React, Node.js, Express.js, MongoDB, HTML, CSS, Heroku, Netlify",
         "link": "https://loquacious-cactus-26d2a9.netlify.app/"
     },
@@ -34,9 +34,9 @@
     {
         "id": 5,
         "title": "WIP: Wonder's Nails & Spa Website",
-        "image": "./age-of-silver.png",
+        "image": "n/a",
         "description": "Designed and developed full website and created custom booking page.",
         "tech": "JavaScript, React, HTML, CSS",
-        "link": ""
+        "link": "https://github.com/nokeen12/wonders-website"
     }
 ]
