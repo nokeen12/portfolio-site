@@ -1,6 +1,5 @@
 import '../pageStyle/ProjectsPage.scss'
 import Projects from '../data/Projects.json'
-
 function ProjectsPage(){
     return(
         <div id="projectspage">

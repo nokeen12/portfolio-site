@@ -1,42 +1,42 @@
 [
     {
         "id": 1,
-        "title": "test",
-        "image": "",
-        "description": "",
-        "tech": "",
+        "title": "Purple Elephant Careers Website",
+        "image": "./age-of-silver.png",
+        "description": "Developed full website from figma file and followed personal design choices when implementing responsive web design",
+        "tech": "JavaScript, React, SCSS, HTML, Figma",
         "link": ""
     },
     {
         "id": 2,
-        "title": "test",
-        "image": "",
-        "description": "",
-        "tech": "",
-        "link": ""
+        "title": "Age of Silver",
+        "image": "./age-of-silver.png",
+        "description": "A full-stack application deployed and hosted using heroku(server) and netlify(client). Users can create an account, view the whole selection, and add jewelry to their cart for checkout.",
+        "tech": "JavaScript, React, Node.js, Express.js, MongoDB, HTML, CSS, Heroku, Netlify",
+        "link": "https://loquacious-cactus-26d2a9.netlify.app/"
     },
     {
         "id": 3,
-        "title": "test",
-        "image": "",
-        "description": "",
-        "tech": "",
-        "link": ""
+        "title": "Orion's Belt",
+        "image": "./orions-belt.png",
+        "description": "A full-stack application with CRUD features; deployed using heroku. Users can sign up, log in, log out, create and view guides for a variety of games, as well as leave comments.",
+        "tech": "JavaScript, Node.js, Express.js, MongoDB, HTML, CSS, Handlebars, Heroku",
+        "link": "http://orions-belt.herokuapp.com/"
     },
     {
         "id": 4,
-        "title": "test",
-        "image": "",
-        "description": "",
-        "tech": "",
-        "link": ""
+        "title": "Last Square",
+        "image": "./last-square.png",
+        "description": "A game where you shoot zombies to accumulate points and survive for as long as you can. Some of the features showcased are HTML canvas for graphics, DOM manipulation, mouse tracking, player tracking, and collision detection.",
+        "tech": "JavaScript, HTML, CSS",
+        "link": "https://nokeen12.github.io/Sunshine-n-rainbows/"
     },
     {
         "id": 5,
-        "title": "test",
-        "image": "",
-        "description": "",
-        "tech": "",
+        "title": "WIP: Wonder's Nails & Spa Website",
+        "image": "./age-of-silver.png",
+        "description": "Designed and developed full website and created custom booking page.",
+        "tech": "JavaScript, React, HTML, CSS",
         "link": ""
     }
 ]

@@ -20,13 +20,14 @@
 }
 #hero-img{
     animation: 1s ease slideInRight;
+    margin-bottom: -4px;
 }
 @keyframes slideInRight{
     0%{
         translate: 100%;
         opacity: 0%;
     }
-    50%{
+    30%{
         opacity: 0%;
     }
     100%{

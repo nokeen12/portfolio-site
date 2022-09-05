@@ -14,7 +14,14 @@
     justify-content:space-evenly;
 }
 .project{
-    width: 200px;
-    height: 200px;
-    background-color: darkorange;
+    // width: 250px;
+    // height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & img{
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+    }
 }

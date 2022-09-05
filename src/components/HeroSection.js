@@ -1,5 +1,5 @@
 import './style/HeroSection.scss'
-
+import Cordre from '../images/cordre.png'
 function HeroSection(){
     return(
         <div id="hero-section">
@@ -9,8 +9,7 @@ function HeroSection(){
                 <p>Just a Developer who loves a challenge.</p>
             </div>
             <div id="hero-img">
-                {/* replace with image later */}
-                <div style={{ width: 300, height: 400, 'background-color': 'darkorange'}}/>
+                <img src={Cordre} alt="cordre" style={{ width: 300, height: 400 }}/>
             </div>
         </div>
     )

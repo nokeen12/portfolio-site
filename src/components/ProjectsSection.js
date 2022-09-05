@@ -9,6 +9,7 @@ function ProjectsSection(){
                     return(
                         <a href={project.link}>
                             <div className="project" key={project.id}>
+                                <img src={project.image} alt="project"></img>
                                 <p>{project.title}</p>
                             </div>
                         </a>
