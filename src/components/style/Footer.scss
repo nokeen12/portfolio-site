@@ -20,3 +20,15 @@ footer{
         }
     }
 }
+@media (max-width: 265px){
+    footer a{
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width: 30%;
+    }
+    footer div{
+        width: 100%;
+        align-items: center;
+    }
+}

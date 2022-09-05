@@ -6,10 +6,10 @@ function HeroSection(){
             <div id="hero-text">
                 <h2>Cordre Payne</h2>
                 <h3>Full Stack Web Developer</h3>
-                <p>Just a Developer who loves a challenge.</p>
+                <p>Just a developer who loves a challenge.</p>
             </div>
             <div id="hero-img">
-                <img src={Cordre} alt="cordre" style={{ width: 300, height: 400 }}/>
+                <img src={Cordre} alt="cordre"/>
             </div>
         </div>
     )

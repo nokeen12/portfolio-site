@@ -11,3 +11,8 @@
     width: 400px;
     height: 200px;
 }
+@media (max-width: 410px){
+    #message{
+        width: 100%;
+    }
+}

@@ -23,3 +23,8 @@
         width: 90%;
     }
 }
+@media (max-width: 265px){
+    #projects-scroll{
+        flex-direction: column;
+    }
+}
