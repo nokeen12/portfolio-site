@@ -1,5 +1,5 @@
 #bio-section{
-    background-color: #232b2b;  
+    background-color: #232b2b;
 }
 #bio-buttons{
     display: flex;
@@ -15,7 +15,6 @@
         padding: 20px;
         background-color: darkorange;
         box-shadow: 0 10px 0px #F05F00;
-        // color: black;
         font-weight: 700;
         margin-bottom: 40px;
         &:focus{
@@ -29,4 +28,30 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    line-height: 2rem;
+    & img{
+        float:left;
+        width: 60%;
+        max-width: 500px;
+        margin-right: 3%;
+    }
+    & p{
+        display: flex;
+        align-items: center;
+    }
+}
+#bio-text{
+    display: flex;
+
+
+}
+@media (max-width: 994px){
+    #bio-details p{
+        display:inline-block;
+    }
+}
+@media(max-width: 850px){
+    #bio-details p{
+        line-height: 1.5rem;
+    }
 }
