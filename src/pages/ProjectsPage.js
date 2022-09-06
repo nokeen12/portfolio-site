@@ -1,6 +1,11 @@
 import '../pageStyle/ProjectsPage.scss'
 import Projects from '../data/Projects.json'
+import { useEffect } from 'react';
+
 function ProjectsPage(){
+    useEffect(() => {
+        window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+      }, []);
     return(
         <div id="projectspage">
             <h1>My Work</h1>

@@ -14,7 +14,7 @@ function ContactSection(){
                 Message:<br/>
                 <input type="text" name="message" id="message"/>
                 <br/>
-                <input type="submit" value="Send"/>
+                <input type="submit" value="Send" id='send'/>
             </form>
         </div>
     )

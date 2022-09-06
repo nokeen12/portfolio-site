@@ -11,6 +11,20 @@
     width: 400px;
     height: 200px;
 }
+#send{
+    background-color: darkorange;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border: 0;
+}
+#send:hover, :focus{
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+}
 @media (max-width: 410px){
     #message{
         width: 100%;

@@ -1,5 +1,5 @@
 import './style/Footer.scss'
-import email from '../images/email.png'
+// import email from '../images/email.png'
 import github from '../images/github.png'
 import linkedin from '../images/linkedin.png'
 function Footer(){
@@ -7,8 +7,9 @@ function Footer(){
         <footer>
             <h2>Cordre Payne</h2>
             <h3>Full Stack Web Developer</h3>
+            <h4>(918)-939-9471</h4>
             <div>         
-                <img src={email} alt="email"/>
+                {/* <img src={email} alt="email"/> */}
                 <a href="https://github.com/nokeen12">
                     <img src={github} alt="github"/>
                 </a>
