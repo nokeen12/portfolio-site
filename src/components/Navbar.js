@@ -7,9 +7,9 @@ function Navbar(){
         <nav className='navbar'>
             <Logo />
             <div>
-                <Link to="/home">Home</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/portfolio-site/home">Home</Link>
+                <Link to="/portfolio-site/projects">Projects</Link>
+                <Link to="/portfolio-site/contact">Contact</Link>
             </div>
             <HamburgerMenu />
         </nav>

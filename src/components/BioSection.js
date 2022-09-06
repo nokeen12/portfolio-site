@@ -6,7 +6,7 @@ function BioSection(){
         <div id="bio-section">
             <div id="bio-buttons">
                 <a href="./Resume.pdf" download>Download CV</a>
-                <Link to="/projects">My Work</Link>
+                <Link to="/portfolio-site/projects">My Work</Link>
             </div>
             <div id="bio-details">
                 <p>
