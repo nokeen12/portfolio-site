@@ -14,13 +14,18 @@
         align-items: center;
         width: 80%;
         padding: 20px;
+        border: 1px solid darkorange;
         background-color: darkorange;
-        box-shadow: 0 10px 0px #F05F00;
+        border-radius: 20px;
         font-weight: 700;
         margin-bottom: 40px;
-        &:focus{
-            box-shadow: 0 0 0 darkorange;
-            translate: 0 10px;
+        background-image: linear-gradient(to left, transparent 50%, white 50%);
+        background-size: 201%;
+        background-position: 100%;
+        transition: 0.4s;
+        &:hover, &:focus{
+            color: black;
+            background-position: 0%;
         }
     }
 }
