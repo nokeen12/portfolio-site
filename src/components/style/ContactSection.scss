@@ -1,3 +1,10 @@
+form{
+    display: flex;
+    flex-direction: column;
+    & > * {
+        margin-bottom: 10px;
+    }
+}
 #contact-section{
     display: flex;
     flex-direction: column;
@@ -10,6 +17,10 @@
 #message{
     width: 400px;
     height: 200px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    color: black;
 }
 #send{
     background-color: darkorange;
