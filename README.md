@@ -21,4 +21,4 @@ Or
 
 ### Tech
 
-JavaScript, React, HTML, CSS
+JavaScript, React, HTML, SCSS
