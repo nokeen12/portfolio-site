@@ -1,18 +1,24 @@
-# Getting Started with Create React App
+# Cordre Payne Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## The professional portfolio page by and for Cordre Payne.
 
-## Required
+This site was made to share information about myself such as projects, contact info and more.
 
-Run these in the project directory:
+## Features
 
-## `npm install react-router-dom`
+* blank
+* blank
 
-## Available Scripts
+## How to run application
 
-In the project directory, you can run:
+1. Visit the site on github pages at https://nokeen12.github.io/portfolio-site/
 
-### `npm start`
+Or
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone this project
+2. Install dependencies with the command - `npm install`
+3. Run `npm start` to start the application on http://localhost:3000/
+
+### Tech
+
+JavaScript, React, HTML, CSS
