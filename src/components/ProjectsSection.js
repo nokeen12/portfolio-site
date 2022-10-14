@@ -5,19 +5,17 @@ function ProjectsSection(){
         <div id="projects-section">
             <h1>Projects</h1>
             <div id="projects-scroll">
-                {Projects && Projects.map(project => {
-                    return(
-                        <>
-                            {project.image.length > 3 &&
-                            <a href={project.link} target="_blank" rel="noopener noreferrer">
-                                <div className="project" key={project.id}>
+                {Projects && Projects.map((project, index) => {
+                    if(project.image.length > 3){
+                        return(
+                            <a href={project.link} target="_blank" rel="noopener noreferrer" key={index}>
+                                <div className="project">
                                     <img src={project.image} alt="project"></img>
                                     <p>{project.title}</p>
                                 </div>
                             </a>
-                            }
-                        </>
-                    )
+                        )
+                    }
                 })}
             </div>
         </div>
