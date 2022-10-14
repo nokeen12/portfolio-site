@@ -68,6 +68,15 @@
     }
 
 }
+@media (max-width: 885px){
+ #hero-section{
+    flex-direction: column;
+ }
+ #hero-img{
+    justify-content: center;
+    margin-bottom: 40px;
+ }
+}
 @media (max-width: 560px){
     #hero-text{
         & h2{

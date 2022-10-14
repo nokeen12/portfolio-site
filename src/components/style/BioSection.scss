@@ -56,6 +56,12 @@
         display:inline-block;
     }
 }
+@media(max-width: 885px){
+    #bio-buttons{
+        width: 100%;
+        justify-content: center;
+    }
+}
 @media(max-width: 850px){
     #bio-details p{
         line-height: 1.5rem;
