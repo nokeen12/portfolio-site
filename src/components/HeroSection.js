@@ -1,5 +1,5 @@
 import './style/HeroSection.scss'
-import Cordre from '../images/cordre.png'
+import Cordre from '../images/cordrep.png'
 function HeroSection(){
     return(
         <div id="hero-section">
