@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Dre's Simple Chat",
-        "image": "n/a",
+        "image": "./SimpleChat-2.png",
         "description": "A web chatting application that allows for real time messaging in a global chatroom.",
         "tech": "JavaScript, React, Node.js, Express.js, MongoDB, HTML, CSS, WebSockets API",
         "link": "https://github.com/nokeen12/chat-app"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "title": "Purple Elephant Careers Website",
-        "image": "n/a",
+        "image": "PEC-1.png",
         "description": "Developed full website from figma file and followed personal design choices when implementing responsive web design.",
         "tech": "JavaScript, React, SCSS, HTML, Figma",
         "link": "https://github.com/nokeen12/purpleelephantcareers"
@@ -18,15 +18,15 @@
     {
         "id": 3,
         "title": "Age of Silver",
-        "image": "./age-of-silver.png",
-        "description": "A full-stack application deployed and hosted using heroku(server) and netlify(client). Users can create an account, view the whole selection of products, and add jewelry to their cart for checkout.",
+        "image": "./AgeOfSilver-1.png",
+        "description": "A full-stack application deployed and hosted using heroku and netlify. Users can create an account, view the whole selection of products, and add jewelry to their cart for checkout.",
         "tech": "JavaScript, React, Node.js, Express.js, MongoDB, HTML, CSS, Heroku, Netlify",
         "link": "https://loquacious-cactus-26d2a9.netlify.app/"
     },
     {
         "id": 4,
         "title": "Orion's Belt",
-        "image": "./orions-belt.png",
+        "image": "./Orion-1.png",
         "description": "A full-stack application with CRUD features; deployed using heroku. Users can sign up, log in, log out, create and view guides for a variety of games, as well as leave comments.",
         "tech": "JavaScript, Node.js, Express.js, MongoDB, HTML, CSS, Handlebars, Heroku",
         "link": "http://orions-belt.herokuapp.com/"
