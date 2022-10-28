@@ -4,11 +4,6 @@
 
 This site was made to share information about myself such as projects, contact info and more.
 
-## Features
-
-* blank
-* blank
-
 ## How to run application
 
 1. Visit the site on github pages at https://nokeen12.github.io/portfolio-site/
