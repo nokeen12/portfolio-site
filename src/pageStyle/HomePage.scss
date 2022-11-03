@@ -1,0 +1,9 @@
+#cursor{
+    z-index: 2;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .5));
+    border-radius:50%;
+    position: absolute;
+    pointer-events: none;
+}

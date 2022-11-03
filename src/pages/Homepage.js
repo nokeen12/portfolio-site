@@ -9,9 +9,14 @@ import { useEffect } from 'react'
 function HomePage(){
     useEffect(() => {
         window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
-      }, []);
+        const cursor = document.getElementById("cursor");
+        document.addEventListener('mousemove', e =>{
+            cursor.style = `top: ${e.pageY-50}px; left: ${e.pageX-50}px`
+        })
+    }, []);
     return(
         <div id="homepage">
+            <div id="cursor"></div>
             <HeroSection/>
             <BioSection/>
             <ProjectsSection/>
