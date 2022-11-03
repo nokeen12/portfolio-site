@@ -3,7 +3,7 @@
     width: 100px;
     height: 100px;
     // background: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .5));
-    background: red;
+    background: radial-gradient(rgba(255, 150, 0, .1), rgba(0, 255, 0, 0));
     border-radius:50%;
     position: absolute;
     pointer-events: none;
@@ -33,7 +33,7 @@
     margin-right: 25px;
 }
 .lattice{
-    background: black;
+    background: #121212;
     transform-origin: center;
     height: 50px;
     width: 50px;
@@ -42,4 +42,26 @@
 #latticeTwo{
     background: blue;
     padding-top: 200px;
+}
+span{
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    border: 50px solid;
+    transform: translate(-50%,-50%);
+    pointer-events:none;
+    border-radius:50%;
+    animation: pop 2s linear forwards;
+    transform-origin: center;
+}
+@keyframes pop{
+    0%{
+        opacity: .5;
+        width:0px;
+        height:0px;
+    }
+    100%{
+        opacity: 0;
+        width: 1000px;
+        height: 1000px;
+    }
 }

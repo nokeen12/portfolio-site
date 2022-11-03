@@ -22,7 +22,16 @@ function HomePage(){
                 <div class="lattice"></div>
                 `
             }
-        }       
+        }
+        document.addEventListener('click', e =>{
+            let x = `${e.pageX}px`
+            let y = `${e.pageY}px`
+            let ripples = document.createElement('span');
+            ripples.style.borderColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`
+            ripples.style.left = x
+            ripples.style.top = y
+            document.getElementById("homepage").appendChild(ripples)
+        }) 
     }, []);
     return(
         <div id="homepage">
