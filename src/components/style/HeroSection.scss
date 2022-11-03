@@ -27,6 +27,7 @@
 #hero-img{
     display: flex;
     align-items: flex-end;
+    z-index: 4;
     animation: 1s ease slideInRight;
     & img{
         width: 300px;

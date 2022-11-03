@@ -2,8 +2,44 @@
     z-index: 2;
     width: 100px;
     height: 100px;
-    background: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .5));
+    // background: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .5));
+    background: red;
     border-radius:50%;
     position: absolute;
     pointer-events: none;
+}
+#bg-custom{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: -25px;
+    left: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow: hidden;
+    z-index: 3;
+}
+.offset{
+    margin-left: -37.5px;
+    margin-top: -12px;
+    margin-bottom: -12px;
+}
+.bg-row{
+    display:flex;
+    min-height:50px;
+    min-width: 100vw;
+}
+.bg-row > *{
+    margin-right: 25px;
+}
+.lattice{
+    background: black;
+    transform-origin: center;
+    height: 50px;
+    width: 50px;
+    transform: rotate(-45deg);
+}
+#latticeTwo{
+    background: blue;
+    padding-top: 200px;
 }
