@@ -1,6 +1,14 @@
 [
     {
         "id": 1,
+        "title": "Shocker",
+        "image": "./Shocker-1.png",
+        "description": "A 2d survival game where you try to avoid lasers as you collect points to try and beat your high score.",
+        "tech": "JavaScript, HTML, CSS",
+        "link": "https://nokeen12.github.io/Shocker-Game/"
+    },
+    {
+        "id": 2,
         "title": "Dre's Simple Chat",
         "image": "./SimpleChat-2.png",
         "description": "A web chatting application that allows for real time messaging in a global chatroom.",
@@ -8,7 +16,7 @@
         "link": "https://github.com/nokeen12/chat-app"
     },
     {
-        "id": 2,
+        "id": 3,
         "title": "Purple Elephant Careers Website",
         "image": "PEC-1.png",
         "description": "Developed full website from figma file and followed personal design choices when implementing responsive web design.",
@@ -16,7 +24,7 @@
         "link": "https://github.com/nokeen12/purpleelephantcareers"
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "Age of Silver",
         "image": "./AgeOfSilver-1.png",
         "description": "A full-stack application deployed and hosted using heroku and netlify. Users can create an account, view the whole selection of products, and add jewelry to their cart for checkout.",
@@ -24,7 +32,7 @@
         "link": "https://loquacious-cactus-26d2a9.netlify.app/"
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Orion's Belt",
         "image": "./Orion-1.png",
         "description": "A full-stack application with CRUD features; deployed using heroku. Users can sign up, log in, log out, create and view guides for a variety of games, as well as leave comments.",
@@ -32,7 +40,7 @@
         "link": "http://orions-belt.herokuapp.com/"
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Last Square",
         "image": "./last-square.png",
         "description": "A game where you shoot zombies to accumulate points and survive for as long as you can. Some of the features showcased are HTML canvas for graphics, DOM manipulation, mouse tracking, player tracking, and collision detection.",
