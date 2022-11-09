@@ -13,7 +13,7 @@ function HomePage(){
         document.addEventListener('mousemove', e =>{
             cursor.style = `top: ${e.pageY-50}px; left: ${e.pageX-50}px`
         })
-        for(let j=0; j < window.innerHeight/35; j++){
+        for(let j=0; j < window.innerHeight/35; j++){ //creates lattice background pattern
             document.getElementById("bg-custom").innerHTML += `
             <div id="n${j}" class="bg-row ${j%2? "offset": null}"></div>
             `
@@ -23,15 +23,6 @@ function HomePage(){
                 `
             }
         }
-        document.addEventListener('click', e =>{
-            let x = `${e.pageX}px`
-            let y = `${e.pageY}px`
-            let ripples = document.createElement('span');
-            ripples.style.borderColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`
-            ripples.style.left = x
-            ripples.style.top = y
-            document.getElementById("homepage").appendChild(ripples)
-        }) 
     }, []);
     return(
         <div id="homepage">
