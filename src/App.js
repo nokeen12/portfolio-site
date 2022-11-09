@@ -8,6 +8,10 @@ import ContactPage from './pages/ContactPage';
 import ProjectsPage from './pages/ProjectsPage';
 
 function App() {
+  window.onload = () => {
+    const load = document.querySelector(".loader-wrapper")
+    load.style.cssText += 'animation: loaded 1s forwards;';
+  }
   return (
     <div className="App">
       <Navbar />
@@ -20,6 +24,9 @@ function App() {
       </Routes>
       </div>
       <Footer/>
+      <div className="loader-wrapper">
+            <span className="loader"><span className="loader-inner"></span></span>
+      </div>
     </div>
   );
 }
