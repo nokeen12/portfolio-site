@@ -11,6 +11,9 @@ function App() {
   window.onload = () => {
     const load = document.querySelector(".loader-wrapper")
     load.style.cssText += 'animation: loaded 1s forwards;';
+    setTimeout(function(){
+      load.style.cssText += 'display: none;'
+    }, 1000)
   }
   return (
     <div className="App">
