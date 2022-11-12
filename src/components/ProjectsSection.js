@@ -10,7 +10,7 @@ function ProjectsSection(){
                         return(
                             <a href={project.link} target="_blank" rel="noopener noreferrer" key={index}>
                                 <div className="project">
-                                    <img src={project.image} alt="project"></img>
+                                    <img src={require(`../images/${project.image}`)} alt="project"></img>
                                     <p>{project.title}</p>
                                 </div>
                             </a>
