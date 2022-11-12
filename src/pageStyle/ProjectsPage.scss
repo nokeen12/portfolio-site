@@ -14,6 +14,9 @@
         object-fit: cover;
     }
 }
+#projectspage{
+    padding-top: 100px;
+}
 @media (max-width: 600px){
     .full-project{
         flex-direction: column;
