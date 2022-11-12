@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio-site/static/css/main.e36c8d3f.css",
-    "main.js": "/portfolio-site/static/js/main.a5184f08.js",
+    "main.css": "/portfolio-site/static/css/main.7e44b48c.css",
+    "main.js": "/portfolio-site/static/js/main.48023d44.js",
+    "static/media/me-and-abe.JPG": "/portfolio-site/static/media/me-and-abe.8b8ac544bc1e0f78db8d.JPG",
     "static/media/cordrep.png": "/portfolio-site/static/media/cordrep.5a7e21e0652782bc394c.png",
+    "static/media/Orion-1.png": "/portfolio-site/static/media/Orion-1.5cffe0a803823e06464e.png",
+    "static/media/AgeOfSilver-1.png": "/portfolio-site/static/media/AgeOfSilver-1.e177c61f44fc5d5e9c76.png",
+    "static/media/PEC-1.png": "/portfolio-site/static/media/PEC-1.6b79e8289fc1ec21a790.png",
+    "static/media/Shocker-1.png": "/portfolio-site/static/media/Shocker-1.6b27fd29a3d822caf036.png",
+    "static/media/last-square.png": "/portfolio-site/static/media/last-square.eb0ff2b3c77afd12d376.png",
+    "static/media/SimpleChat-2.png": "/portfolio-site/static/media/SimpleChat-2.2d50b810aefea2749b00.png",
+    "static/media/email.png": "/portfolio-site/static/media/email.67bda94140af311d041f.png",
+    "static/media/orions-belt.png": "/portfolio-site/static/media/orions-belt.ac7938c0b498c393df8f.png",
     "static/media/linkedin.png": "/portfolio-site/static/media/linkedin.92380c03cc82f139a166.png",
     "index.html": "/portfolio-site/index.html",
-    "main.e36c8d3f.css.map": "/portfolio-site/static/css/main.e36c8d3f.css.map",
-    "main.a5184f08.js.map": "/portfolio-site/static/js/main.a5184f08.js.map"
+    "main.7e44b48c.css.map": "/portfolio-site/static/css/main.7e44b48c.css.map",
+    "main.48023d44.js.map": "/portfolio-site/static/js/main.48023d44.js.map"
   },
   "entrypoints": [
-    "static/css/main.e36c8d3f.css",
-    "static/js/main.a5184f08.js"
+    "static/css/main.7e44b48c.css",
+    "static/js/main.48023d44.js"
   ]
 }
