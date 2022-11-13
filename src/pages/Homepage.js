@@ -1,10 +1,9 @@
 import '../pageStyle/HomePage.scss'
 import HeroSection from '../components/HeroSection'
 import BioSection from '../components/BioSection'
-import ProjectsSection from '../components/ProjectsSection'
 import ContactSection from '../components/ContactSection'
 import React, { useEffect } from 'react'
-
+import ProjectCarousel from '../components/ProjectCarousel'
 
 function HomePage(){
     useEffect(() => {
@@ -31,7 +30,7 @@ function HomePage(){
             </div>
             <HeroSection/>
             <BioSection/>
-            <ProjectsSection/>
+            <ProjectCarousel/>
             <ContactSection/>
         </div>
     )
