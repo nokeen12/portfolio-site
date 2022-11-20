@@ -21,7 +21,7 @@ function ProjectCarousel(){
     return(
         <div className="carousel" data-carousel>
             <button className="carousel-button prev" data-carousel-button="prev">&#8249;</button>
-            <button className="carousel-button next" data-carousel-button="next">&#8250;</button>
+
             <ul data-slides>
                 {Projects && Projects.map((project, index) => {
                     if(project.image.length > 3){
@@ -46,6 +46,7 @@ function ProjectCarousel(){
                     }
                 })}
             </ul>
+            <button className="carousel-button next" data-carousel-button="next">&#8250;</button>
         </div>
     )
 }
