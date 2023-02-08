@@ -7,7 +7,7 @@ export default function ProjectSection(){
             {Projects && Projects.map((project, index) => {
                     return(
                         <div className="project-card" key={index}>
-                            <p>{project.title}</p>
+                            <h3>{project.title}</h3>
                             <a href={project.link} target="_blank" rel="noopener noreferrer" key={index}>
                                 <img src={require(`../images/${project.image}`)} alt="project"></img>
                             </a>

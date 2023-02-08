@@ -1,15 +1,11 @@
 .routes{
     #homepage{
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 2vw;
+        padding-right: 2vw;
     }
-    #homepage > #cursor, #homepage > #bg-custom{
-        padding-left: 0;
-        padding-right: 0; 
-    }
-    #projectspage > *{
-        padding-left: 2rem;
-        padding-right: 2rem;
+    #projectspage{
+        padding-left: 2vw;
+        padding-right: 2vw;
     }
 }
 
