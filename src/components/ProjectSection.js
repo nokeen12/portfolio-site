@@ -6,13 +6,11 @@ export default function ProjectSection(){
         <div className="projectSection">
             {Projects && Projects.map((project, index) => {
                     return(
-                        <div className="project-card" key={index}>
+                        <a className="project-card" href={project.link} target="_blank" rel="noopener noreferrer" key={index}>
                             <h3>{project.title}</h3>
-                            <a href={project.link} target="_blank" rel="noopener noreferrer" key={index}>
                                 <img src={require(`../images/${project.image}`)} alt="project"></img>
-                            </a>
                             <p>{project.description}</p>
-                        </div>
+                        </a>
                     )
             })}
         </div>
