@@ -1,13 +1,8 @@
-import { Link } from 'react-router-dom';
 import './style/BioSection.scss'
 
 function BioSection(){
     return(
         <div id="bio-section">
-            <div id="bio-buttons">
-                <a href="./Resume.pdf" download>Download CV</a>
-                <Link to="/portfolio-site/projects">My Work</Link>
-            </div>
             <div id="bio-details">
                 <p>
                     <img src={require('../images/me-and-abe.JPG')} alt="cordre"/>

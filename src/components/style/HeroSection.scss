@@ -1,7 +1,8 @@
 #hero-section{
     display: flex;
+    flex-direction: column;
     position: relative;
-    justify-content: space-evenly;
+    justify-content: center;
     height: 100vh;
 }
 #hero-text{
@@ -35,6 +36,34 @@
         line-height:2.5rem;
         font-size: 3rem;
         animation: 1s ease slideInLeft;
+    }
+}
+#hero-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    justify-content: space-between;
+    & a{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        padding: 20px;
+        border: 1px solid darkorange;
+        background-color: darkorange;
+        border-radius: 20px;
+        font-weight: 700;
+        background-image: linear-gradient(to left, transparent 50%, white 50%);
+        background-size: 201%;
+        background-position: 100%;
+        transition: 0.4s;
+        &:hover, &:focus{
+            color: black;
+            background-position: 0%;
+        }
     }
 }
 @keyframes flicker{
@@ -105,5 +134,16 @@
 @media (max-width: 400px){
     #hero-img img{
         display: none;
+    }
+}
+@media(max-width: 885px){
+    #hero-buttons{
+        width: 100%;
+        justify-content: center;
+    }
+}
+@media (max-width: 400px){
+    #hero-buttons{
+        width: 100%;
     }
 }
