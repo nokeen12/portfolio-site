@@ -26,13 +26,14 @@ function HomePage(){
     return(
         <div id="homepage">
             {/* <div id="cursor"></div> */}
-            <div id="bg-custom">
-            </div>
+            {/* <div id="bg-custom"> */}
+            {/* </div> */}
             <HeroSection/>
             <BioSection/>
             <span>Projects</span>
             <ProjectCarousel/>
             <ContactSection/>
+            <div id="next-section">V</div>
         </div>
     )
 }

@@ -1,40 +1,67 @@
-#cursor{
-    z-index: 2;
+// #cursor{
+//     z-index: 2;
+//     width: 100px;
+//     height: 100px;
+//     background: radial-gradient(rgba(255, 150, 0, .1), rgba(0, 255, 0, 0));
+//     border-radius:50%;
+//     position: absolute;
+//     pointer-events: none;
+// }
+// #bg-custom{
+//     position: fixed;
+//     display: flex;
+//     flex-direction: column;
+//     top: -25px;
+//     left: 0;
+//     min-height: 100vh;
+//     min-width: 100vw;
+//     overflow: hidden;
+//     z-index: 3;
+// }
+// .offset{
+//     margin-left: -37.5px;
+//     margin-top: -12px;
+//     margin-bottom: -12px;
+// }
+// .bg-row{
+//     display:flex;
+//     min-height:50px;
+//     min-width: 100vw;
+// }
+// .bg-row > *{
+//     margin-right: 25px;
+// }
+// .lattice{
+//     background: #121212;
+//     transform-origin: center;
+//     height: 50px;
+//     width: 50px;
+//     transform: rotate(-45deg);
+// }
+#next-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: darkorange;
+    opacity: 50%;
+    z-index: 98;
+    // left: 50%;
+    // right: 50%;
+    bottom: 5%;
     width: 100px;
     height: 100px;
-    background: radial-gradient(rgba(255, 150, 0, .1), rgba(0, 255, 0, 0));
-    border-radius:50%;
-    position: absolute;
-    pointer-events: none;
+    border-radius: 100px;
+    animation: bounce 7s ease-in-out infinite;
+    padding-left: 0;
+    padding-right: 0;
 }
-#bg-custom{
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    top: -25px;
-    left: 0;
-    min-height: 100vh;
-    min-width: 100vw;
-    overflow: hidden;
-    z-index: 3;
+#next-section:hover{
+    opacity: 100%;
+    cursor:pointer;
 }
-.offset{
-    margin-left: -37.5px;
-    margin-top: -12px;
-    margin-bottom: -12px;
-}
-.bg-row{
-    display:flex;
-    min-height:50px;
-    min-width: 100vw;
-}
-.bg-row > *{
-    margin-right: 25px;
-}
-.lattice{
-    background: #121212;
-    transform-origin: center;
-    height: 50px;
-    width: 50px;
-    transform: rotate(-45deg);
+@keyframes bounce{
+    50%{
+        transform: translateY(-20px); 
+    }
 }

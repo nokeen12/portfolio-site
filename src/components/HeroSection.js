@@ -7,7 +7,6 @@ function HeroSection(){
                 <h3>Full Stack Web Developer</h3>
                 <p>Just a developer who loves a challenge.</p>
             </div>
-            <div className='hero-bubble'>Download CV</div>
         </div>
     )
 }
