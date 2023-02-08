@@ -1,5 +1,6 @@
 #hero-section{
     display: flex;
+    position: relative;
     justify-content: space-evenly;
     height: 100vh;
 }
@@ -36,6 +37,19 @@
         animation: 1s ease slideInLeft;
     }
 }
+.hero-bubble{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: darkorange;
+    left: 3%;
+    bottom: 5%;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    animation: bounce 7s ease-in-out infinite;
+}
 @keyframes flicker{
     0%, 18%, 26.1%, 30%, 60.1%, 92%{
         color: #5a3318;
@@ -71,6 +85,17 @@
         opacity: 100%;
     }
 
+}
+@keyframes bounce{
+    // 0%{
+        
+    // }
+    50%{
+        transform: translateY(-100px); 
+    }
+    // 100%{
+
+    // }
 }
 @media (max-width: 885px){
  #hero-section{
