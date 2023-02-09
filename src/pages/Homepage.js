@@ -16,7 +16,7 @@ function HomePage(){
             <h1>My Work</h1>
             <ProjectSection/>
             <ContactSection/>
-            {/* <div id="next-section">V</div> */}
+            <div id="next-section">V</div>
         </div>
     )
 }
