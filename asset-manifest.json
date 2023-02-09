@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-site/static/css/main.34ee9659.css",
-    "main.js": "/portfolio-site/static/js/main.99a76726.js",
+    "main.css": "/portfolio-site/static/css/main.a6667946.css",
+    "main.js": "/portfolio-site/static/js/main.6aa0d1b4.js",
     "static/media/me-and-abe.JPG": "/portfolio-site/static/media/me-and-abe.8b8ac544bc1e0f78db8d.JPG",
     "static/media/cordrep.png": "/portfolio-site/static/media/cordrep.5a7e21e0652782bc394c.png",
     "static/media/Orion-1.png": "/portfolio-site/static/media/Orion-1.5cffe0a803823e06464e.png",
@@ -14,11 +14,11 @@
     "static/media/orions-belt.png": "/portfolio-site/static/media/orions-belt.ac7938c0b498c393df8f.png",
     "static/media/linkedin.png": "/portfolio-site/static/media/linkedin.92380c03cc82f139a166.png",
     "index.html": "/portfolio-site/index.html",
-    "main.34ee9659.css.map": "/portfolio-site/static/css/main.34ee9659.css.map",
-    "main.99a76726.js.map": "/portfolio-site/static/js/main.99a76726.js.map"
+    "main.a6667946.css.map": "/portfolio-site/static/css/main.a6667946.css.map",
+    "main.6aa0d1b4.js.map": "/portfolio-site/static/js/main.6aa0d1b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.34ee9659.css",
-    "static/js/main.99a76726.js"
+    "static/css/main.a6667946.css",
+    "static/js/main.6aa0d1b4.js"
   ]
 }
