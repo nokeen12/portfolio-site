@@ -1,22 +1,27 @@
-#bio-details{
-    padding: 50px 0 150px 0;
-    display: flex;
-    justify-content: space-evenly;
+#bio-section{
+    display:flex;
     align-items: center;
+    margin-bottom: 100px;
+}
+#bio-details{
     line-height: 2rem;
-    & img{
-        float:left;
-        width: 60%;
-        max-width: 500px;
-        margin-right: 3%;
-    }
-    & p{
-        display: flex;
-        align-items: center;
-    }
+    width: 64vw;
+    margin: 2vw;
 }
 #bio-text{
     display: flex;
+}
+#tech-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    padding: 1vw;
+    border-radius: 10px;
+    width: 30vw;
+    svg{
+        width: 45%;
+    }
 }
 @media (max-width: 994px){
     #bio-details p{
