@@ -13,6 +13,9 @@ function HeroSection(){
                 <a href="./Resume.pdf" download>Download CV</a>
                 <Link to="/portfolio-site/projects">My Work</Link>
             </div>
+            <a href="#bio-section">
+                <div id="next-section">V</div>
+            </a>
         </div>
     )
 }

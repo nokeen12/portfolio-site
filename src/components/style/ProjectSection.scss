@@ -1,8 +1,15 @@
-.projectSection{
+#projectSection{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    .bump-page{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        bottom: 0;
+    }
     .project-card{
         display:flex;
         flex-direction:column;
@@ -13,6 +20,10 @@
         border-radius: 10px;
         box-shadow: 0 0 10px black;
         transition: box-shadow 1s, background-color 1s;
+        p{
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
         *{
             margin-left: 1vw;
             margin-right: 1vw;

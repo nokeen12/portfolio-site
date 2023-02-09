@@ -3,6 +3,14 @@
     align-items: center;
     margin-bottom: 100px;
     height: 100vh;
+    position: relative;
+    a{
+        width: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        bottom: 5%;
+    }
     p{
         line-height: 2.5rem;
         width: 64vw;

@@ -16,6 +16,9 @@ function BioSection(){
             <p>
                 I'm an enthusiastic web developer with a passion for creating intuitive and engaging web experiences. With a few projects in both front-end and back-end development, I have a solid understanding of some of the latest technologies and strive to follow development best practices. I'm excited to continue growing my skills and take on new challenges in the web development industry.
             </p>
+            <a href="#projectSection">
+                <div id="next-section">V</div>
+            </a>
         </div>
     )
 }

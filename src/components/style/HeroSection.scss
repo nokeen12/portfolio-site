@@ -4,6 +4,11 @@
     position: relative;
     justify-content: center;
     height: 100vh;
+    a{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 #hero-text{
     align-self: center;
@@ -12,6 +17,7 @@
         text-align: center;
         margin-bottom: 50px;
         animation: 3s ease fadeIn;
+        font-weight: 600;
     }
     h2{/*Cordre Payne*/
         line-height: 4rem;
@@ -64,6 +70,32 @@
             color: black;
             background-position: 0%;
         }
+    }
+}
+#next-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: darkorange;
+    opacity: 50%;
+    z-index: 98;
+    bottom: 5%;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    animation: bounce 7s ease-in-out infinite;
+    padding-left: 0;
+    padding-right: 0;
+}
+#next-section:hover{
+    opacity: 100%;
+    cursor:pointer;
+}
+
+@keyframes bounce{
+    50%{
+        transform: translateY(-20px); 
     }
 }
 @keyframes flicker{
