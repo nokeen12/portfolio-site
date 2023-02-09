@@ -2,14 +2,11 @@
     display:flex;
     align-items: center;
     margin-bottom: 100px;
-}
-#bio-details{
-    line-height: 2rem;
-    width: 64vw;
-    margin: 2vw;
-}
-#bio-text{
-    display: flex;
+    p{
+        line-height: 2rem;
+        width: 64vw;
+        margin: 2vw;
+    }
 }
 #tech-icons{
     display: flex;
@@ -23,13 +20,15 @@
         width: 45%;
     }
 }
-@media (max-width: 994px){
-    #bio-details p{
-        display:inline-block;
-    }
-}
-@media(max-width: 850px){
-    #bio-details p{
-        line-height: 1.5rem;
+
+@media(max-width: 510px){
+    #bio-section{
+        flex-direction:column;
+        #tech-icons{
+            width: 90%;
+        }
+        p{
+            width: 90%;
+        }
     }
 }
