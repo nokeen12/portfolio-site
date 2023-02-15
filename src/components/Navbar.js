@@ -6,6 +6,7 @@ function Navbar(){
     return(
         <nav className='navbar'>
             <Logo />
+            <ColorToggle />
             <div>
                 <Link to="/portfolio-site/home">Home</Link>
                 <Link to="/portfolio-site/projects">Projects</Link>
@@ -32,4 +33,11 @@ function HamburgerMenu(){
     )
 }
 
+function ColorToggle(){
+    return(
+        <div>
+            <p>test</p>
+        </div>
+    )
+}
 export default Navbar;
