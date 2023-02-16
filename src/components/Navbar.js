@@ -34,9 +34,21 @@ function HamburgerMenu(){
 }
 
 function ColorToggle(){
+    function changeColor(){
+        var button = document.getElementById("theme-button")
+        if(button.className === "dark"){
+            button.style.left = "34px";
+            button.style.backgroundColor = "white";
+            button.className = "light"
+        }else{
+            button.style.left = "0px";
+            button.style.backgroundColor = "#121212";
+            button.className = "dark"
+        }
+    }
     return(
         <div id="theme-toggle">
-            <div id="theme-button"></div>
+            <div id="theme-button" className="dark" onClick={changeColor}></div>
         </div>
     )
 }
