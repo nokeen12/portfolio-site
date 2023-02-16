@@ -35,8 +35,8 @@ function HamburgerMenu(){
 
 function ColorToggle(){
     return(
-        <div>
-            <p>test</p>
+        <div id="theme-toggle">
+            <div id="theme-button"></div>
         </div>
     )
 }
